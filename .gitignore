@@ -12,7 +12,6 @@ __pycache__/
 .streamlit/secrets.toml
 
 # Heavy local vector databases / unstructured data caches
-data/
 chroma_db/
 faiss_index/
 .chroma/
