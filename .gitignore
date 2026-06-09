@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Streamlit secrets (Keep your API keys safe!)
+.streamlit/secrets.toml
+
+# Heavy local vector databases / unstructured data caches
+data/
+chroma_db/
+faiss_index/
+.chroma/
+
+# HuggingFace downloaded model files (VERY LARGE — never upload these)
+models/
+*.bin
+*.pt
+*.safetensors
+*.gguf
+*.onnx
+.cache/
+
+# FAISS index files
+index.faiss
+index.pkl
+
+# Test file with exposed API key
+text.py
+
+# System specific files
+.DS_Store
+Thumbs.db
